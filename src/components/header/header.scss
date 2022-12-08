@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e6e6e6;
+    // h-shadow 必需的。水平阴影的位置。允许负值
+    // v-shadow 必需的。垂直阴影的位置。允许负值
+    // blur 可选。模糊距离
+    // spread 可选。阴影的大小
+    // color 可选。阴影的颜色。在CSS颜色值寻找颜色值的完整列表
+    // inset 可选。从外层的阴影（开始时）改变阴影内侧阴影
+    box-shadow: 0 3px 12px rgba(0,36,153,0.06);
+    background-color: #fff;
+
+    .container {
+        width: 1180px;
+        height: 60px;
+        line-height: 60px;
+        margin: 0 auto;
+
+        .logo {
+            margin-right: 40px;
+            font-size: 18px;
+
+            a {
+                text-decoration: none;
+                color: #000000;
+            }
+        }
+
+        div {
+            float: left;
+        }
+
+        .login {
+            float: right;
+        }
+
+        .search {
+            position: relative;
+            top: 7px;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.login {
+
+    span {
+        padding-right: 12px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+
+        &:hover {
+            color: #1677ff;
+        }
+    }
+}
